@@ -1,61 +1,92 @@
+import Image from "next/image";
 import Link from "next/link";
-
+import './index.css'
 const Hero = () => {
   return (
     <>
       <section
         id="home"
-        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[130px] md:pb-[120px] "
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4">
+            <div className="w-full md:w-1/2 px-4">
               <div
                 className="wow fadeInUp mx-auto max-w-[800px] text-center"
                 data-wow-delay=".2s"
               >
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Free and Open-Source Next.js Template for Startup & SaaS
-                </h1>
-                <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
-                  Startup is free Next.js template for startups and SaaS
-                  business websites comes with all the essential pages,
-                  components, and sections you need to launch a complete
-                  business website, built-with Next 13.x and Tailwind CSS.
+                <div className="flex justify-between align-baseline" style={{ alignItems: 'flex-start' }}>
+                  <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight text-start">
+                    Discover <br /> <u>Ram Mandir</u>
+                  </h1>
+                  <Image
+                    src={'/images/mandir/2aec853e-b5b4-4e10-8f3f-29c30ca013b9.jpeg'} className="rounded-[20px]" width={100} height={80} alt="" />
+                </div>
+                <p className="text-start dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
+                  Immerse in History with AyodhyaGPT, your guide to understanding and participating in the auspicious <strong> Pran Pratishtha ceremony at Ayodhya.</strong>
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
-                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                    href="/chatnow"
+                    className="rounded-sm bg-primary heroChatnowButton px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 bg-primaryColor"
                   >
-                    🔥 Get Pro
+                    Chat Now
                   </Link>
                   <Link
-                    href="https://github.com/NextJSTemplates/startup-nextjs"
-                    className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    href="/learn-more"
+                    className="inline-block rounded-sm primaryColor underline px-0 py-0 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90   "
                   >
-                    Star on GitHub
+                    Learn now
                   </Link>
                 </div>
+              </div>
+            </div>
+            <div className="w-full md:w-1/2  px-4">
+              {/* <div
+                className="wow flex heroLeftCont fadeInUp mx-auto max-w-[800px] text-center"
+                data-wow-delay=".2s"
+
+              > */}
+              <div className="relative heroRightCont grid gap-4 grid-cols-5 "
+
+              >
+                <div className="col-span-2  w-[125px] h-[125px]">
+                  <div className="heroSVG1">
+                  <Image alt="" id="" className="w" src={'https://landingsite-static-web-images.s3.us-east-2.amazonaws.com/template10/four-angle-star.svg'} width={50} height={50} />
+                  <Image alt="" id="" className="w" src={'https://landingsite-static-web-images.s3.us-east-2.amazonaws.com/template10/orange-bubble.svg'} width={100} height={100} />
+                  </div>
+                </div>
+                <div className="col-span-3">
+                  <Image alt="" id="image-1" className="w-full" src={'/images/mandir/8.avif'} width={100} height={100} />
+                </div>
+                <div className="col-span-5">
+                  <Image alt="" className="dottedSVG" src={'https://landingsite-static-web-images.s3.us-east-2.amazonaws.com/template10/orange-dots.svg'} width={100} height={100} />
+                  <Image alt="" id="image-2" className="w-full" src={'/images/mandir/PTI10-16-2023-000166B-0_1697645705604_1697646044415.avif'} width={100} height={100} />
+                </div>
+                {/* <div className="bg-primary w-[125px] h-[125px]">4</div>
+                <div className="bg-primary w-[125px] h-[125px]"> */}
+
+                {/* </div> */}
+
               </div>
             </div>
           </div>
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
-          <svg
+          {/* <svg
             width="450"
             height="556"
             viewBox="0 0 450 556"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-          >
-            <circle
+          > */}
+          {/* <circle
               cx="277"
               cy="63"
               r="225"
               fill="url(#paint0_linear_25:217)"
-            />
-            <circle
+            /> */}
+          {/* <circle
               cx="17.9997"
               cy="182"
               r="18"
@@ -97,8 +128,8 @@ const Hero = () => {
               r="133.362"
               transform="rotate(133.319 191.659 302.659)"
               fill="url(#paint6_linear_25:217)"
-            />
-            <defs>
+            /> */}
+          {/* <defs>
               <linearGradient
                 id="paint0_linear_25:217"
                 x1="-54.5003"
@@ -176,11 +207,11 @@ const Hero = () => {
                 <stop stopColor="#4A6CF7" />
                 <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
               </linearGradient>
-            </defs>
-          </svg>
+            </defs> */}
+          {/* </svg> */}
         </div>
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
-          <svg
+          {/* <svg
             width="364"
             height="201"
             viewBox="0 0 364 201"
@@ -280,7 +311,7 @@ const Hero = () => {
                 <stop offset="1" stopColor="white" stopOpacity="0.08" />
               </radialGradient>
             </defs>
-          </svg>
+          </svg> */}
         </div>
       </section>
     </>

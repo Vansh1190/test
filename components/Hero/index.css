@@ -1,0 +1,36 @@
+.heroRightCont {
+    background-color: rgb(245 158 11 / 10%);
+    padding: 80px 40px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-items: end;
+    /* gap: 30px; */
+}
+.heroSVG1{
+    position: absolute;
+    top: 0rem;
+}
+.heroRightCont #image-2 {
+
+    border-radius: 30px;
+    box-shadow: 4px 4px 0px 2px rgb(245 158 11);
+}
+.heroRightCont .dottedSVG{
+    color: transparent;
+    top: 11rem;
+    width: 6vw;
+    position: absolute;
+}
+
+.heroRightCont #image-1 {
+    width: 20vw;
+    min-width: 150px;
+    max-height: 150px;
+    text-align: end;
+    display: inline;
+    margin-top: -55px;
+    /* transform: translate(35vw, -25vw); */
+    margin-left: auto;
+    border-radius: 30px;
+    box-shadow: 4px -4px 0px 2px rgb(245 158 11);
+}

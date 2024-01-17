@@ -19,6 +19,18 @@
     @apply py-5 lg:py-2;
   }
 
+ h1{
+       font-size: x-large;
+       font-weight: 700;
+}
+
+@media (width < 1200px) {
+  .container{
+    max-width: 95% !important
+   }
+}
+  
+
   .sticky .menu-scroll.active {
     @apply opacity-70;
   }
@@ -31,3 +43,18 @@
     @apply opacity-100;
   }
 }
+
+
+.primaryColor{
+  color: rgb(245 158 11 ) !important;
+}
+.hover-primaryColor:hover{
+  color: rgb(245 158 11 ) !important;
+}
+.bg-primaryColor{
+  background-color: rgb(245 158 11 ) !important;
+}
+.heroChatnowButton{
+  border-radius: 25px 25px 0 25px !important;
+}
+
