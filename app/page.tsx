@@ -23,7 +23,7 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <NewPage/>
+      <hr></hr>
       <Features />
       <Video />
       <Brands />

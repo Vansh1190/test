@@ -25,7 +25,7 @@ const Hero = () => {
                 <p className="text-start dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
                   Immerse in History with AyodhyaGPT, your guide to understanding and participating in the auspicious <strong> Pran Pratishtha ceremony at Ayodhya.</strong>
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <div className="flex flex-col items-center justify space-y-4 mb-24 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/chatnow"
                     className="rounded-sm bg-primary heroChatnowButton px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 bg-primaryColor"
@@ -34,10 +34,14 @@ const Hero = () => {
                   </Link>
                   <Link
                     href="/learn-more"
-                    className="inline-block rounded-sm primaryColor underline px-0 py-0 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90   "
+                    className="inline-block rounded-sm primaryColor px-4 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:text-black/90  border-b-[1px]"
                   >
                     Learn now
                   </Link>
+                </div>
+                <div>
+                <Image alt="" id="" className="w-full mt-8" src={'/images/mandir/ss1.png'} width={500} height={100} />
+                <Image alt="" id="" className="w-full my-4" src={'/images/mandir/ss2.png'} width={500} height={100} />
                 </div>
               </div>
             </div>
@@ -62,6 +66,10 @@ const Hero = () => {
                 <div className="col-span-5">
                   <Image alt="" className="dottedSVG" src={'https://landingsite-static-web-images.s3.us-east-2.amazonaws.com/template10/orange-dots.svg'} width={100} height={100} />
                   <Image alt="" id="image-2" className="w-full" src={'/images/mandir/PTI10-16-2023-000166B-0_1697645705604_1697646044415.avif'} width={100} height={100} />
+                </div>
+                <div className="col-span-5">
+                  <Image alt="" id="image-3" className="w-1/2" src={'/images/mandir/deepak.avif'} width={100} height={100} />
+                  <Image alt="" className="orangeBubble" src={'https://landingsite-static-web-images.s3.us-east-2.amazonaws.com/template10/orange-bubble.svg'} width={100} height={100} />
                 </div>
                 {/* <div className="bg-primary w-[125px] h-[125px]">4</div>
                 <div className="bg-primary w-[125px] h-[125px]"> */}
