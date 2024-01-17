@@ -13,7 +13,7 @@ import { Metadata } from "next";
 import NewPage from "./New/page";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
+  title: "AyodhyaGPT",
   description: "This is Home for Startup Nextjs Template",
   // other metadata
 };
