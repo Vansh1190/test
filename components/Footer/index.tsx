@@ -16,7 +16,7 @@ const Footer = () => {
       >
         <div className={'flex-col gap-8 lg:flex-row flex w-full justify-between items-center'}>
             <div className={'text-2xl md:text-3xl font-bold'}>AyodhyaGPT</div>
-            <ul className={'flex gap-4 md:gap-8'}>
+            <ul className={'flex flex-col md:flex-row items-center gap-4 md:gap-8'}>
                 <li className={'hover:text-black transition-all duration-300 cursor-pointer'}>Guide</li>
                 <li className={'hover:text-black transition-all duration-300 cursor-pointer'}>Services</li>
                 <li className={'hover:text-black transition-all duration-300 cursor-pointer'}>Blog</li>
