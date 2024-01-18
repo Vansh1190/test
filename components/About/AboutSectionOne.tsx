@@ -18,33 +18,33 @@ const AboutSectionOne = () => {
   );
 
   return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
+    <section id="about" className="pt-14">
       <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+        <div className="border-b border-body-color/[.15] pb-4 dark:border-white/[.15]">
           <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
+            <div className="w-full px-4 lg:w-1/2" >
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Join Millions in Devotion."
+                paragraph="AyodhyaGPT unlocks hidden meanings and enriches your Pran Pratishtha journey, serving as your trusted companion on the path to understanding. Craft your unique Pran Pratishtha experience with AyodhyaGPT as your guide."
                 mb="44px"
               />
 
               <div
-                className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
+                className="wow fadeInUp mb-12 :mb-0"
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                  <div className="w-full px-3">
+                    <List text="Comprehensive Guide - all on your mobile." />
+                    <List text="Discover hidden gems, avoid crowds, and personalize your pilgrimage." />
+                    <List text="Unlock the Mysteries of Pran Pratishtha with AyodhyaGPT" />
                   </div>
 
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                  {/* <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Next.js" />
                     <List text="Rich documentation" />
                     <List text="Developer friendly" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -55,10 +55,10 @@ const AboutSectionOne = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/mandir/public.avif"
                   alt="about-image"
                   fill
-                  className="drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
+                  className="drop-shadow-lg rounded-[5px] object-cover mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
                   src="/images/about/about-image-dark.svg"

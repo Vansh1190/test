@@ -16,8 +16,8 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <div className="flex justify-between align-baseline" style={{ alignItems: 'flex-start' }}>
-                  <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight text-start">
-                    Discover <br /> <u>Ram Mandir</u>
+                  <h1 className="mb-5 text-4xl font-normal leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-6xl md:leading-tight text-start">
+                    Discover <br /> <u className="font-bold">Ram Mandir</u>
                   </h1>
                   <Image
                     src={'/images/mandir/2aec853e-b5b4-4e10-8f3f-29c30ca013b9.jpeg'} className="rounded-[20px]" width={100} height={80} alt="" />
@@ -40,8 +40,8 @@ const Hero = () => {
                   </Link>
                 </div>
                 <div>
-                <Image alt="" id="" className="w-full mt-8" src={'/images/mandir/ss1.png'} width={500} height={100} />
-                <Image alt="" id="" className="w-full my-4" src={'/images/mandir/ss2.png'} width={500} height={100} />
+                <Image alt="" id="" className="w-[80%] mt-2" src={'/images/mandir/ss1.png'} width={1500} height={1500} />
+                <Image alt="" id="" className="w-[80%] my-4" src={'/images/mandir/ss2.png'} width={1500} height={1500} />
                 </div>
               </div>
             </div>

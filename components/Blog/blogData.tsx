@@ -3,10 +3,10 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Birth of Divinity",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+      "Infusing the idol with divine life force",
+    image: "/images/mandir/KAG061_1050x700.webp",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
@@ -17,10 +17,10 @@ const blogData: Blog[] = [
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Consecrating the Abode",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-02.jpg",
+      "Preparing the temple for Ram's presence.",
+    image: "/images/mandir/2320953_CON_FEATUREIMG_20221222_142339.avif",
     author: {
       name: "Musharof Chy",
       image: "/images/blog/author-02.png",
@@ -31,10 +31,10 @@ const blogData: Blog[] = [
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Invoking Blessings.",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+      "Chanting mantras for a prosperous future.",
+    image: "/images/mandir/2015-10-14T034505Z_707_GF10000243461_RTRMADP_0_INDIA-RELIGION.jpeg",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",
