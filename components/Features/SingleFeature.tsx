@@ -10,7 +10,7 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
           {/* {icon} */}
           <Image src={icon} alt="" width={50} height={50}/>
         </div>
-        <h3 className="text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+        <h3 className="text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl">
           {title}
         </h3>
         <p className="pr-[10px] text-base font-medium leading-relaxed text-body-color">

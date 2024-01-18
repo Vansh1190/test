@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[130px] md:pb-[120px] "
+        className="relative z-10 overflow-hidden bg-white pb-16 pt-[130px] md:pb-[120px] "
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -16,7 +16,7 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <div className="flex justify-between align-baseline" style={{ alignItems: 'flex-start' }}>
-                  <h1 className="mb-5 text-4xl font-normal leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-6xl md:leading-tight text-start">
+                  <h1 className="mb-5 text-4xl font-normal leading-tight text-black sm:text-4xl sm:leading-tight md:text-6xl md:leading-tight text-start">
                     Discover <br /> <u className="font-bold">Ram Mandir</u>
                   </h1>
                   <Image
@@ -25,7 +25,7 @@ const Hero = () => {
                 <p className="text-start dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
                   Immerse in History with AyodhyaGPT, your guide to understanding and participating in the auspicious <strong> Pran Pratishtha ceremony at Ayodhya.</strong>
                 </p>
-                <div className="flex flex-col items-center justify space-y-4 mb-24 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <div className="flex items-center justify space-y-4 space-x-4 mb-24 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/chatnow"
                     className="rounded-sm bg-primary heroChatnowButton px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 bg-primaryColor"
@@ -40,8 +40,8 @@ const Hero = () => {
                   </Link>
                 </div>
                 <div>
-                <Image alt="" id="" className="w-[80%] mt-2" src={'/images/mandir/ss1.png'} width={1500} height={1500} />
-                <Image alt="" id="" className="w-[80%] my-4" src={'/images/mandir/ss2.png'} width={1500} height={1500} />
+                <Image alt="" id="" className="w-[100%] sm:w-[90%] mt-2" src={'/images/mandir/ss1.png'} width={1500} height={1500} />
+                <Image alt="" id="" className="w-[100%] sm:w-[90%]  my-4" src={'/images/mandir/ss2.png'} width={1500} height={1500} />
                 </div>
               </div>
             </div>

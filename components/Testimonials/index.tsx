@@ -74,7 +74,7 @@ const testimonialData: Testimonial[] = [
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 pt-8">
+    <section className="bg-gray-light relative z-10 pt-8">
       <div className="container">
         <SectionTitle
           title="Ceremony Highlights"
@@ -82,8 +82,8 @@ const Testimonials = () => {
           width="100%"
         />
         
-        <div className="grid bg-white py-12 px-6 grid-cols-1 gap-x-8 gap-y-4 shadow-xl ">
-          <h1>Timelines of Prana Pratishtha and Related Events:</h1>
+        <div className="grid bg-white py-8 px-6 grid-cols-1 gap-x-8 gap-y-4 shadow-xl ">
+          <h1 className="text-black text-xl">Timelines of Prana Pratishtha and Related Events:</h1>
           {testimonialData.map((testimonial) => (
             <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
           ))}

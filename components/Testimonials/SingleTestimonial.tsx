@@ -12,12 +12,12 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
   return (
     <div className="w-full">
       <div
-        className="wow border-l-4 border-[#f59e0b] border-solid fadeInUp shadow-two dark:shadow-three dark:hover:shadow-gray-dark rounded-sm bg-[#fffbeb] p-4 duration-300 hover:shadow-one px-4"
+        className="wow border-l-4 border-[#f59e0b] border-solid fadeInUp shadow-two  rounded-sm bg-[#fffbeb] p-4 duration-300 hover:shadow-one px-4"
         data-wow-delay=".1s"
       >
         <div className="flex flex-col p-0 ">
-          <h3 className="p-0 m-0 font-bold" >{CeremonyName}</h3>
-          <p>{schedule}</p>
+          <h3 className="p-0 m-0 font-bold text-sm text-black" >{CeremonyName}</h3>
+          <p className="text-black text-sm">{schedule}</p>
           {/* <div className="relative w-full max-w-[80%] overflow-hidden rounded-[5px]">
 
           </div> */}
