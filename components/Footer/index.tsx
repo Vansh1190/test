@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
         </div>
           <div className={'py-20 flex justify-center md:justify-start'}>
-          © ISH RAJESH SHELLEY, 2024.
+              © ISH RAJESH SHELLEY, 2024.
           </div>
       </footer>
     </>
