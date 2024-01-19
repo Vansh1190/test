@@ -61,7 +61,7 @@ const Hero = () => {
                   </div>
                 </div>
                 <div className="col-span-3">
-                  <Image alt="" id="image-1" className="w-full" src={'/images/mandir/8.avif'} width={100} height={100} />
+                  <Image alt="" id="image-1" className="w-full" src={'/images/mandir/8.avif'} width={1500} height={1500} />
                 </div>
                 <div className="col-span-5">
                   <Image alt="" className="dottedSVG" src={'https://landingsite-static-web-images.s3.us-east-2.amazonaws.com/template10/orange-dots.svg'} width={100} height={100} />
