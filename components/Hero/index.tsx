@@ -65,10 +65,10 @@ const Hero = () => {
                 </div>
                 <div className="col-span-5">
                   <Image alt="" className="dottedSVG" src={'https://landingsite-static-web-images.s3.us-east-2.amazonaws.com/template10/orange-dots.svg'} width={100} height={100} />
-                  <Image alt="" id="image-2" className="w-full" src={'/images/mandir/PTI10-16-2023-000166B-0_1697645705604_1697646044415.avif'} width={100} height={100} />
+                  <Image alt="" id="image-2" className="w-full" src={'/images/mandir/PTI10-16-2023-000166B-0_1697645705604_1697646044415.avif'} width={1500} height={1500} />
                 </div>
                 <div className="col-span-5">
-                  <Image alt="" id="image-3" className="w-1/2" src={'/images/mandir/deepak.avif'} width={100} height={100} />
+                  <Image alt="" id="image-3" className="w-1/2" src={'/images/mandir/deepak.avif'} width={1500} height={1500} />
                   <Image alt="" className="orangeBubble" src={'https://landingsite-static-web-images.s3.us-east-2.amazonaws.com/template10/orange-bubble.svg'} width={100} height={100} />
                 </div>
                 {/* <div className="bg-primary w-[125px] h-[125px]">4</div>
