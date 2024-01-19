@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="text-white wow fadeInUp dark:bg-gray-dark relative z-10 bg-yellow pt-16 md:pt-20 px-2 md:px-10 xl:px-20"
+        className="text-white wow fadeInUp relative z-10 bg-yellow pt-16 md:pt-20 px-2 md:px-10 xl:px-20"
         data-wow-delay=".1s"
       >
         <div className={'flex-col gap-8 lg:flex-row flex w-full justify-between items-center'}>
