@@ -58,7 +58,7 @@ const AboutSectionOne = () => {
                   src="/images/mandir/public.avif"
                   alt="about-image"
                   fill
-                  className="drop-shadow-lg rounded-[5px] object-cover mx-auto max-w-full dark:drop-shadow-none lg:mr-0"
+                  className="drop-shadow-lg rounded-[5px] object-cover mx-auto max-w-full lg:mr-0"
                 />
               </div>
             </div>

@@ -24,7 +24,7 @@ const Blog = () => {
         </div>
         <div className="flex justify-center flex-col items-center gap-2 mt-8">
             <button className="bg-primaryColor py-2 px-6 rounded-[8px] m-auto text-white font-bold">Explore Blogs</button>
-            <p className="opacity-80">Connect with the Divine: Explore Our Blogs Section</p>
+            <p className="opacity-80 text-black">Connect with the Divine: Explore Our Blogs Section</p>
           </div>
       </div>
     </section>

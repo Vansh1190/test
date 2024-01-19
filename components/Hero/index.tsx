@@ -22,7 +22,7 @@ const Hero = () => {
                   <Image
                     src={'/images/mandir/2aec853e-b5b4-4e10-8f3f-29c30ca013b9.jpeg'} className="rounded-[20px]" width={100} height={80} alt="" />
                 </div>
-                <p className="text-start dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
+                <p className="text-start mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
                   Immerse in History with AyodhyaGPT, your guide to understanding and participating in the auspicious <strong> Pran Pratishtha ceremony at Ayodhya.</strong>
                 </p>
                 <div className="flex items-center justify space-y-4 space-x-4 mb-24 sm:flex-row sm:space-x-4 sm:space-y-0">

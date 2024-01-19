@@ -19,7 +19,7 @@ const Features = () => {
           </div>
           <div className="flex justify-center flex-col items-center gap-2 mt-8">
             <button className="bg-primaryColor py-2 px-6 rounded-[8px] m-auto text-white font-bold">Start your Ayodhya journey today</button>
-            <p className="opacity-80">Your All-in-One Guide to Reaching Ayodhya.</p>
+            <p className="opacity-80 text-black">Your All-in-One Guide to Reaching Ayodhya.</p>
           </div>
         </div>
       </section>

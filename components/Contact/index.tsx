@@ -22,15 +22,15 @@ const Contact = () => {
                 <form className={'w-full lg:w-96 flex flex-col gap-4'}>
                   <div className={'flex flex-col'}>
                     <label htmlFor={'name'}> Name </label>
-                    <input name={'name'} id={'name'} className={'h-8 rounded-md focus:outline-none border-none text-black p-1'}/>
+                    <input name={'name'} id={'name'} className={'h-8 bg-[#faf8f4] rounded-md focus:outline-none border-none text-black p-1'}/>
                   </div>
                   <div className={'flex flex-col'}>
                     <label htmlFor={'email'}> Email Address </label>
-                    <input name={'email'} id={'email'} className={'h-8 rounded-md focus:outline-none border-none text-black p-1'}/>
+                    <input name={'email'} id={'email'} className={'h-8 bg-[#faf8f4] rounded-md focus:outline-none border-none text-black p-1'}/>
                   </div>
                   <div className={'flex flex-col'}>
                     <label htmlFor={'message'}> Message </label>
-                    <textarea name={'message'} id={'message'} className={'h-16 resize-none rounded-md focus:outline-none border-none text-black p-1'}/>
+                    <textarea name={'message'} id={'message'} className={'h-16 bg-[#faf8f4]  resize-none rounded-md focus:outline-none border-none text-black p-1'}/>
                   </div>
                   <button className={'mx-auto lg:mx-0 text-black bg-white rounded-l-xl rounded-tr-xl p-3 w-32 text-sm hover:bg-gray-200 transition-all duration-300'}>Send Message</button>
                 </form>
